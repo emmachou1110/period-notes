@@ -38,7 +38,7 @@ function loadNotes() {
     wall.innerHTML = "";
 
     // Replace with your published CSV link from Google Sheets
-    const csvLink = "YOUR_PUBLISHED_CSV_LINK_HERE";
+    const csvLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQTpAiuxbNjoaxRgPh3Hlv4Xr16UmJBD-9oqrC60rt2aYAvQyG3zCxWeHCioKdbV0Gx5VZ3ZUSZpxlK/pub?output=csv";
 
     fetch(csvLink)
         .then(res => res.text())
